@@ -34,9 +34,6 @@ dependencies {
 	// JPA
 	implementation group: 'org.hibernate', name: 'hibernate-spatial', version: '5.1.0.Final'
 
-	// 로그인 보안
-	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
-
 	// 스웨거
 	implementation 'io.springfox:springfox-boot-starter:3.0.0'
 	implementation 'io.springfox:springfox-swagger-ui:3.0.0'
