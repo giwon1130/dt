@@ -1,5 +1,5 @@
 server:
-  port: 28080
+  port: 8080
   servlet:
     session:
       timeout: 7200
@@ -8,10 +8,9 @@ spring:
   datasource:
     hikari:
       maximum-pool-size: 4
-    url: jdbc:postgresql://localhost:5432/city_dt
+    url: jdbc:postgresql://3.34.181.178:5432/postgres
     username: postgres
-    password: postgres
-    platform: postgres
+    password: obigo@2022
 
   jpa:
     hibernate:
@@ -40,5 +39,3 @@ logging:
     org.hibernate.SQL: info
     org.hibernate.type: info
 
-geometry:
-  srid: 3857
