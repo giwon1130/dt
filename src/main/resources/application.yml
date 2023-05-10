@@ -8,9 +8,13 @@ spring:
   datasource:
     hikari:
       maximum-pool-size: 4
-    url: jdbc:postgresql://3.34.181.178:5432/postgres
+#    url: jdbc:postgresql://3.34.181.178:5432/postgres
+#    username: postgres
+#    password: obigo@2022
+    url: jdbc:postgresql://localhost:5432/city_dt
     username: postgres
-    password: obigo@2022
+    password: postgres
+    platform: postgres
 
   jpa:
     hibernate:
