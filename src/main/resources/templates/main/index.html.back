@@ -22,14 +22,14 @@
         <h3>Compny</h3>
         <table id="companyList">
             <thead>
-            <tr>
-                <td>No</td>
-                <td>ID</td>
-                <td>Name</td>
-                <td>Email</td>
-                <td>Address</td>
-                <td>Description</td>
-            </tr>
+                <tr>
+                    <td>No</td>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Address</td>
+                    <td>Description</td>
+                </tr>
             </thead>
             <tbody>
 
@@ -117,8 +117,8 @@
     function save() {
         var companySeq = $('#companySeq').val();
         var productSeqList = [];
-        $('input[name="mapping"]:checked').each(function(i) {
-            productSeqList.push(i);
+       $('input[name="mapping"]:checked').each(function(i) {
+           productSeqList.push(i);
         });
 
         var reqData = {
